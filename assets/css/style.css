@@ -84,7 +84,7 @@ Hamburger Menu Display
     position: relative;
 }
 .navbar .dropdown_list_item a::before{
-    content: url('/assets/img/plus-circle.svg');
+    content: url('assets/img/plus-circle.svg');
     position: absolute;
     left: -50px;
 }
