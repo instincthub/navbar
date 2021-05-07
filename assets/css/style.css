@@ -23,6 +23,7 @@ header{
 .navbar{
     width: 90%;
     margin: 0 auto;
+    position: relative;
 }
 
 .navbar .menu_list{
@@ -71,6 +72,54 @@ header{
 .navbar .expand_icon{
     display: none;
 }
+.navbar .menu_list .dropdown_list{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+/* ==========================
+Hamburger Menu Display
+============================= */
+.navbar .dropdown_list_item a{
+    position: relative;
+}
+.navbar .dropdown_list_item a::before{
+    content: url('/assets/img/plus-circle.svg');
+    position: absolute;
+    left: -50px;
+}
+.navbar .dropdown_list_item p{
+    font-size: 1em;
+    font-weight: 300;
+    margin-top: 5px;
+}
+.open_nav .menu_list {
+    display: block;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    animation: fadeIn 1s;
+}
+.open_nav .dropdown_link {
+    display: flex;
+}
+.open_nav .expand_icon {
+    display: block;
+}
+
+
+.open_nav .primary_link {
+    margin-top: 30px;
+    display: block;
+    border-bottom: 1px solid rgba(0 0 0 / .1);
+    padding-bottom: 10px;
+}
+
+header.open_nav{
+    animation: expand .5s;
+    height: 100vh;
+}
+
 
 @media (min-width: 768px){
     .navbar .signup{
@@ -111,14 +160,42 @@ header{
         display: block;
     }
 
-}
 
-@media (min-width: 1280px){
-    .navbar .menu_list{
-        /* width: 30%; */
+    /* ==========================
+    Large Screen Dropdown
+    ============================= */
+
+    .navbar .dropdown{
+        position: relative;
     }
+    .navbar .dropdown .dropdown_list{
+        display: block;
+        position: absolute;
+        width: 300px;
+        padding: 20px 20px 20px 80px;
+        box-shadow: rgba(0 0 0 / .1);
+        background-color: #fff;
+        top: 50px;
+        right: 0;
+        border-radius: 5px;
+        animation: fadeIn .5s;
+        animation-timing-function: ease-in;
+    }
+
 }
 
+
+ /* ==========================
+    Keyframes Animations
+============================= */
+@keyframes expand {
+    from {height: 80px;}
+    to {height: 100vh;}
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
 
 
 /* Footer */
