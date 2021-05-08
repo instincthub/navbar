@@ -98,7 +98,7 @@ Hamburger Menu Display
     position: absolute;
     top: 100px;
     width: 100%;
-    animation: fadeIn 1s;
+    animation: fadeIn 3s;
 }
 .open_nav .dropdown_link {
     display: flex;
@@ -183,6 +183,16 @@ header.open_nav{
     }
 
 }
+.rotate{
+    animation: rotate .4s;
+    transform: rotate(360deg) !important;
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+    
+}
 
 
  /* ==========================
@@ -209,6 +219,7 @@ footer{
 }
 footer .resource_links{
     display: flex;
+    flex-wrap: wrap;
 }
 footer .resource_links a{
     margin-right: 20px;
