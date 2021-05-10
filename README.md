@@ -21,7 +21,7 @@ These are some of the declaration in CSS you will get used to after the lesson:
 
 
 ## Javascript Logic
-With Javascript, web developers can manipulate the DOM; in this tutorial, toggle an open class whenever the user clicks on each of the testimonies.
+With Javascript, web developers can manipulate the DOM; in this tutorial, toggle an `open_nav` class whenever the user clicks on the hamburger menu or any of the dropdown menu buttons.
 
 ----
 *To get along quickly with this course, you will need basic HTML, CSS, and JavaScript knowledge.*
