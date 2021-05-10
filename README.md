@@ -39,7 +39,7 @@ With Javascript, web developers can manipulate the DOM; in this tutorial, toggle
 * Created By [InstinctHub.github.io](https://instincthub.github.io/navbar/)
 
 ## Credit: 
-* Created By [InstinctHub](https://instincthub.com/)
+* Created By [InstinctHub.com](https://instincthub.com/)
 
 
 ![NAVBAR UI](navbar.png "Navbar UI")
