@@ -36,10 +36,10 @@ With Javascript, web developers can manipulate the DOM; in this tutorial, toggle
 
 
 ## Preview Project: 
-* Created By [InstinctHub.github.io](https://instincthub.github.io/navbar/)
+* [InstinctHub.github.io](https://instincthub.github.io/navbar/)
 
 ## Credit: 
-* Created By [InstinctHub.com](https://instincthub.com/)
+* Created By: [InstinctHub.com](https://instincthub.com/)
 
 
 ![NAVBAR UI](navbar.png "Navbar UI")
